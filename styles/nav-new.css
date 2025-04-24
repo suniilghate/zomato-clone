@@ -1,0 +1,44 @@
+header {
+    width: 100%;
+    position: absolute;
+}
+
+nav {
+    width: 80%;
+    display: flex;
+    font-weight: 200;
+    background: transparent;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    user-select: none;
+    padding: 1.7rem 0px;
+    color: #ffffff;
+}
+
+nav .nav-elements {
+    color:white;
+    padding-bottom: 1rem;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0px 0px 0.2rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+nav .nav-elements a {
+    color: white;
+    font-size: 1.4rem;
+}
+
+nav .nav-right {
+    display: flex;
+}
+
+nav .nav-right .nav-elements a {
+    margin-right: 2rem;
+    font-size: 1.8rem;
+    font-weight: 200px;
+    padding: 0.8rem;
+}
